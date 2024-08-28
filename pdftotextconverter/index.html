@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type from PDF</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Type from PDF</h1>
+        <form id="pdf-upload-form">
+            <label for="pdf-file">Select a PDF file:</label>
+            <input type="file" id="pdf-file" accept="application/pdf">
+            <button type="submit">Upload PDF</button>
+        </form>
+
+        <div id="pdf-viewer"></div>
+
+        <textarea id="typed-text" placeholder="Start typing here..."></textarea>
+
+        <button id="download-text">Download Typed Text</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
